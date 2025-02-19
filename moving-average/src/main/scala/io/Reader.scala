@@ -3,7 +3,6 @@ package com.kueski.movingaverage.io
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.functions.to_date
 import com.kueski.movingaverage.utils.{LoggingTrait}
-import scala.util.{Try, Success, Failure}
 
 class DataLoader extends DataLoaderInterface with LoggingTrait {
 
